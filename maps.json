@@ -3,7 +3,7 @@
     "gm_construct": {
       "name": "GM Construct",
       "url": "garrys_map_construct_gm_construct.glb",
-      "scale": 1,
+      "scale": 5,
       "rotY": 0,
       "spawnY": 80
     }
