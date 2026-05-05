@@ -1,0 +1,35 @@
+{
+  "_comment": "JJK 24FRAMES — Maps Manifest. Add your GLB maps here.",
+  "_format": "category.name = { url, scale?, rotY?, spawnY?, preview? }",
+  "_url_field": "url puede ser relativa (ej: 'castle.glb') o absoluta (ej: 'https://...')",
+  "_scale_field": "scale: número (ej: 1.0). Si no se pone, auto-scale a 50m mínimo, 200m máx.",
+  "_rotY_field": "rotY: rotación inicial Y en radianes (opcional)",
+  "_spawnY_field": "spawnY: altura donde spawnear el player (opcional)",
+  "_preview_field": "preview: URL relativa o absoluta a una imagen .png/.jpg de preview (opcional)",
+
+  "worlds": {
+    "_example_castle": {
+      "url": "worlds/castle.glb",
+      "scale": 1.0,
+      "spawnY": 5,
+      "preview": "previews/castle.png",
+      "_note": "Ejemplo. Borrá esta línea cuando subas un GLB real con este nombre."
+    }
+  },
+
+  "arenas": {
+    "_example_arena": {
+      "url": "arenas/dojo.glb",
+      "scale": 1.5,
+      "_note": "Ejemplo. Reemplazá con tus arenas reales."
+    }
+  },
+
+  "rooms": {
+    "_example_apartment": {
+      "url": "rooms/apartment.glb",
+      "scale": 1.0,
+      "_note": "Ejemplo. Reemplazá con tus rooms reales."
+    }
+  }
+}
