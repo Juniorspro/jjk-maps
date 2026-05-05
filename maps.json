@@ -2,7 +2,7 @@
   "worlds": {
     "ruins": {
       "url": "familiar_ruins_classic.glb",
-      "scale": 1.0
+      "scale": 20
     }
   },
   "arenas": {},
