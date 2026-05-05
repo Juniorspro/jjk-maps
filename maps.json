@@ -1,10 +1,11 @@
 {
   "worlds": {
-    "ruins": {
-      "url": "familiar_ruins_classic.glb",
-      "scale": 10
+    "gm_construct": {
+      "name": "GM Construct",
+      "url": "gm_construct.glb",
+      "scale": 1,
+      "rotY": 0,
+      "spawnY": 80
     }
-  },
-  "arenas": {},
-  "rooms": {}
+  }
 }
